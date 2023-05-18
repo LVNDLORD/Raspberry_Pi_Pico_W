@@ -69,6 +69,25 @@ LED selection and brightness percentage is show on the OLED display.
 ![alt text](https://users.metropolia.fi/~andriid/Micropython_project/led_menu_4.gif)
 [Link](https://users.metropolia.fi/~andriid/Micropython_project/led_menu_4.gif) to demo GIF if not working
 
+
+
+##
+2. `dataset.py`  - select and run the file.
+
+Inside the dataset.py file are 2 sets of PPI (pulse–pulse intervals) values given in ms.\
+Code calculates the basic Heart Rate Variability analysis parameters and shows the following values on the OLED:
+
+▪ Mean PPI\
+▪ mean heart rate (HR)\
+▪ Standard deviation of PPI (SDNN)\
+▪ Root mean square of successive differences (RMSSD)
+
+Pressing SW_2 (upper button) on Pico add-on board displays calculation results of "set_1"\
+Pressing SW_0 (bottom button) on Pico add-on board displays calculation results of "set_2"
+
+![alt text](https://users.metropolia.fi/~andriid/Micropython_project/dataset_5.gif)
+[Link](https://users.metropolia.fi/~andriid/Micropython_project/dataset_5.gif) to demo GIF if not working
+
 # Hardware description
 
 1. **Raspberry Pico W**
