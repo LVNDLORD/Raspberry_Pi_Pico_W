@@ -1,0 +1,29 @@
+'status': 'ok',
+'analysis': {'rmssd_ms': 42.90518,     // Root mean square of successive differences
+            'artefact_level': 'GOOD',
+            'pns_index': -0.3011307,    // Parasympathetic Nervous System (Parasympathetic tone - recovery)
+            'sd2_ms': 31.70471,
+            'artefact': 0.0,
+            'mean_rr_ms': 805.0,
+            'mean_hr_bpm': 74.53418,  
+            'freq_domain': {'LF_power_prc': 21.00564,
+                            'tot_power': 836.9014,
+                            'HF_peak': 0.1966668,
+                            'LF_power_nu': 21.41623,
+                            'VLF_power': 16.04526,
+                            'LF_peak': 0.15,
+                            'LF_power': 175.7964,
+                            'HF_power_nu': 78.43763,
+                            'VLF_power_prc': 1.917223,
+                            'HF_power': 643.8599,
+                            'HF_power_prc': 76.93379,
+                            'VLF_peak': 0.04,
+                            'LF_HF_power': 0.2730353},
+            'create_timestamp': '2023-05-07T22:28:04.689590+00:00',
+            'sd1_ms': 31.17044,
+            'respiratory_rate': None,
+            'readiness': 62.5,
+            'sns_index': 1.767119,      // Sympathetic Nervous System (Sympathetic tone - stress)
+            'sdnn_ms': 30.65534,      // Standard deviation of RR (or PP) intervals(SDNN)
+            'stress_index': 18.45492}
+            }
