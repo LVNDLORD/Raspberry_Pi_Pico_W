@@ -1,4 +1,4 @@
-## Content of the README
+# Content of the README
 - Introduction
 - Installation
 - Code description
@@ -12,9 +12,8 @@ Each project contains a link to a demo GIF, where can be seen what each code doe
 \
 The last one is my final project from my first year at the university, which uses a wireless connection to the Kubios Cloud to do the Heart Rate Variability analysis.
 
-The whole setup
+The whole setup\
 ![alt text](https://users.metropolia.fi/~andriid/Micropython_project/whole_setup_1.jpg)
-
 
 
 # Installation
@@ -68,13 +67,10 @@ On Mac com-port is a long string e.g. `/dev/cu.usbmodem12102`. Write the whole s
 - Done!
 
 
-
 ##
 If you have done everything correctly, your files in RP Pico should look like this:
-
-![alt text](https://users.metropolia.fi/~andriid/Micropython_project/pico_content.png)
+![alt text](https://users.metropolia.fi/~andriid/Micropython_project/pico_content.png)\
 RP Pico W content
-
 
 
 # Code description
@@ -101,7 +97,6 @@ Code calculates the basic Heart Rate Variability analysis parameters and shows t
 
 Pressing SW_2 (upper button) on the Pico add-on board displays the calculation results of "set_1"\
 Pressing SW_0 (bottom button) on the Pico add-on board displays the calculation results of "set_2"
-
 
 
 ##
@@ -143,10 +138,10 @@ Execution order:
 
 In the repository, you can see an example of the JSON file `kubios_data.json` returned from Kubios Cloud.
 
-![alt text](https://users.metropolia.fi/~andriid/Micropython_project/project_results.jpg)
+
+
+![alt text](https://users.metropolia.fi/~andriid/Micropython_project/project_results.jpg)\
 Results of Kubios Cloud PPI analysis
-
-
 
 # Hardware description
 
@@ -157,7 +152,7 @@ Results of Kubios Cloud PPI analysis
 ![alt text](https://users.metropolia.fi/~andriid/Micropython_project/dev_board_pinout.png)
 3. **Rotary encoder**
 ![alt text](https://users.metropolia.fi/~andriid/Micropython_project/Rotary%20encoder.webp)
-4. **Crowtail pulse sensor v 2.0** - connected to ADC Input on the development board
+4. **Crowtail pulse sensor v 2.0** - connected to ADC Input on the development board\
 ![alt text](https://users.metropolia.fi/~andriid/Micropython_project/crowtail_pulse_sensor_v_2_0.webp)
 5. **OLED ssd1306**
 ![alt text](https://users.metropolia.fi/~andriid/Micropython_project/oled-ssd1306-display-i2c-128-x-64-pixel.webp)
