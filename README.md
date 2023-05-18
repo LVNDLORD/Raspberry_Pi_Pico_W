@@ -68,7 +68,7 @@ On Mac com-port is a long string e.g. `/dev/cu.usbmodem12102`. Write the whole s
 
 
 ##
-If you have done everything correctly, your files in RP Pico should look like this:
+If you have done everything correctly, your files in RP Pico should look like this:\
 ![alt text](https://users.metropolia.fi/~andriid/Micropython_project/pico_content.png)\
 RP Pico W content
 
