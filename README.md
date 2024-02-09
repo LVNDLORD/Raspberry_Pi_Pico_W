@@ -1,8 +1,13 @@
 # Content of the README
-- Introduction
-- Installation
-- Code description
-- Hardware description
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Code description](#code-description)
+  - [Projects](#projects) 
+    - [Selecting and adjusting LED brightness with a knob](#LED-menu)
+    - [Dataset analysis](#dataset-analysis)
+    - [reading Heart rate variability values from a sensor, and sending to Kubios Cloud for detailed analysis](#kubios-hrv-analysis)
+      - [Prerequisites](#prerequisites)
+- [Hardware description](#hardware-description)
 
 
 
@@ -72,20 +77,36 @@ If you have done everything correctly, your files in RP Pico should look like th
 ![alt text](https://users.metropolia.fi/~andriid/Micropython_project/pico_content.png)\
 RP Pico W content
 
+##
 
 # Code description
-1. `led_menu.py` - select and run the file.\
-[Link to the demo GIF](https://users.metropolia.fi/~andriid/Micropython_project/led_menu_4.gif)
+
+## Projects
+
+### LED menu
+1.`led_menu.py` - select and run the file.\
+
+Demo
+
+
+
+[Link](https://users.metropolia.fi/~andriid/Micropython_project/led_menu_4.gif) to the demo GIF if video not working
 
 Control the brightness of LEDs on the add-on board using a rotary knob.\
 Selecting LED and going back to the menu is executed by pressing down the knob.\
 LED selection and brightness percentage are shown on the OLED display.
 
-
-
 ##
+
+### Dataset analysis
 2. `dataset.py`  - select and run the file.\
-[Link to the demo GIF](https://users.metropolia.fi/~andriid/Micropython_project/dataset_5.gif)
+
+Demo
+
+
+[Link](https://users.metropolia.fi/~andriid/Micropython_project/dataset_5.gif) to the demo GIF if video not working
+
+The initial requirements for this task can be found [here](https://users.metropolia.fi/~andriid/Micropython_project/dataset_analysis_task.png). <br> 
 
 Inside the `dataset.py` file are 2 sets of PPI (pulse–pulse intervals) values given in ms.\
 Code calculates the basic Heart Rate Variability analysis parameters and shows the following values on the OLED:
@@ -98,12 +119,20 @@ Code calculates the basic Heart Rate Variability analysis parameters and shows t
 Pressing SW_2 (upper button) on the Pico add-on board displays the calculation results of "set_1"\
 Pressing SW_0 (bottom button) on the Pico add-on board displays the calculation results of "set_2"
 
-
 ##
-3. `Project.py`\
-   `kubios.py`\
-   [Link to the demo GIF](https://users.metropolia.fi/~andriid/Micropython_project/Project.gif)
 
+### Kubios HRV analysis
+
+3. `Project.py`\
+   `kubios.py` <br>
+
+Demo
+
+
+
+[Link](https://users.metropolia.fi/~andriid/Micropython_project/Project.gif) to the demo GIF if video not working
+
+#### Prerequisites
 
 The heart rate sensor is connected to the ADC pin on the RP Pico add-on board.
 To run this code you need to fill the following credentials in the `kubios.py` file.
@@ -142,6 +171,8 @@ In the repository, you can see an example of the JSON file `kubios_data.json` re
 
 ![alt text](https://users.metropolia.fi/~andriid/Micropython_project/project_results.jpg)\
 Results of Kubios Cloud PPI analysis
+
+##
 
 # Hardware description
 
