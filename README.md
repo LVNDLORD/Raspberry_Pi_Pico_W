@@ -88,7 +88,7 @@ RP Pico W content
 
 Demo
 
-
+https://github.com/LVNDLORD/Raspberry_Pi_Pico_W/assets/93579810/1b5c7f7a-e82d-4f67-9f70-c4442a462c70
 
 [Link](https://users.metropolia.fi/~andriid/Micropython_project/led_menu_4.gif) to the demo GIF if video not working
 
@@ -103,6 +103,7 @@ LED selection and brightness percentage are shown on the OLED display.
 
 Demo
 
+https://github.com/LVNDLORD/Raspberry_Pi_Pico_W/assets/93579810/ee353f98-d00e-4e3a-bba8-0af76af262ca
 
 [Link](https://users.metropolia.fi/~andriid/Micropython_project/dataset_5.gif) to the demo GIF if video not working
 
@@ -128,7 +129,7 @@ Pressing SW_0 (bottom button) on the Pico add-on board displays the calculation 
 
 Demo
 
-
+https://github.com/LVNDLORD/Raspberry_Pi_Pico_W/assets/93579810/5ad4c501-6f92-415e-b7df-3a641dd7769d
 
 [Link](https://users.metropolia.fi/~andriid/Micropython_project/Project.gif) to the demo GIF if video not working
 
