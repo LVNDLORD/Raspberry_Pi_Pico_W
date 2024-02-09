@@ -129,7 +129,7 @@ Pressing SW_0 (bottom button) on the Pico add-on board displays the calculation 
 
 Demo
 
-https://github.com/LVNDLORD/Raspberry_Pi_Pico_W/assets/93579810/5ad4c501-6f92-415e-b7df-3a641dd7769d
+https://github.com/LVNDLORD/Raspberry_Pi_Pico_W/assets/93579810/f22654fa-1386-426c-94da-c867beacbc5f
 
 [Link](https://users.metropolia.fi/~andriid/Micropython_project/Project.gif) to the demo GIF if video not working
 
